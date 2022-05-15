@@ -6,7 +6,7 @@ body, html {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #333;
 }
 
@@ -43,6 +43,11 @@ ol {
 li {
   background-color: rgb(242, 255, 226);
   border: solid 5px black;
+  margin: 10px;
+}
+
+p {
+  margin-left: 5px;
 }
 
 button {
@@ -115,7 +120,7 @@ header {
 }
 
 header h1 {
-  font-size: 1em;
+  font-size: 25px;
 }
 
 main {
@@ -164,7 +169,8 @@ main {
 
 .edit-link {
   display: block;
-  margin: -1.5% 0 2% 0;
+  color: black;
+  margin-left: 5px;
 }
 
 .comment-form {
@@ -174,10 +180,11 @@ main {
 .comment {
   padding: 1%;
   margin-bottom: 1%;
+  background-color: rgb(224, 224, 255);
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: #d4f7fd;
 }
 
 .comment .meta {
@@ -187,8 +194,12 @@ main {
   opacity: .6;
 }
 
-.new-post-form input {
+.post-title-input {
   width: 300px;
+}
+
+.post-contents-input {
+  width: 600px;
 }
 
 .edit-post-form {
