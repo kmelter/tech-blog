@@ -10,15 +10,39 @@ body, html {
   color: #333;
 }
 
+header {
+  color: rgb(242, 255, 226);
+  background-color: black;
+}
+
+main {
+  background-color: rgb(242, 255, 226);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: rgb(242, 255, 226);
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
   color: #3486eb;
+}
+
+ol {
+  list-style-type: none;
+}
+
+li {
+  background-color: rgb(242, 255, 226);
+  border: solid 5px black;
 }
 
 button {
@@ -34,6 +58,14 @@ button {
 
 button:hover {
   background-color: #3486eb;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(242, 255, 226);
+  background-color: black;
+  padding: 5px;
 }
 
 .post-list {
@@ -97,11 +129,10 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: rgb(242, 255, 226);
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
-  margin-left: 16px;
 }
 
 .btn-no-style:hover {
@@ -118,8 +149,11 @@ main {
 }
 
 .post {
-  margin-bottom: 2%;
   line-height: 150%;
+}
+
+.title {
+  font-weight: bold;
 }
 
 .post .title span {
@@ -149,6 +183,7 @@ main {
 .comment .meta {
   font-size: 90%;
   margin-bottom: .5%;
+
   opacity: .6;
 }
 
