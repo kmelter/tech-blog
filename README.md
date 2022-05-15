@@ -22,4 +22,7 @@ sequelize
 ## Reposotiry Link
 https://github.com/kmelter/tech-blog
 
-## Heroku Deployed Link
+## Link to Heroku Overview
+https://dashboard.heroku.com/apps/stark-hollows-07616
+
+Opening the app in Heroku will throw an error.
